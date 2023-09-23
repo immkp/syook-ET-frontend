@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import "./index.css"
 
-const socket = io('http://localhost:5000/'); // Replace with your server's URL
+const socket = io("https://syook-et.onrender.com/") // Replace with your server's URL
 
 function Data() {
   const [successRate, setSuccessRate] = useState(0);
